@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+wheels/
+*.tar.gz
+*.whl
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Temporary image files saved by Flask (adjust if needed)
+# If Flask saves them directly in 'app' directory
+app/*.png
+app/*.jpg
+app/*.jpeg
+app/*.gif
+app/*.bmp
+app/*.tiff
+# Or if they might be saved at the root level during local testing
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Docker cache/build related (less critical if Dockerfile is clean)
+.dockerignore-file-if-you-have-one
+
+# Celery related temp files (if any appear)
+*.pid
+celerybeat-schedule.*
